@@ -33,6 +33,6 @@ public class DaysController : ControllerBase
 
 public class Day
 {
-    public string Name { get; set; }
-    public string[] Tasks { get; set; }
+    public string? Name { get; set; }
+    public string[]? Tasks { get; set; }
 }

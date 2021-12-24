@@ -26,6 +26,7 @@ export class Calendar extends Component {
             <tr key={day.name}>
               <td>{day.name}</td>
               <td>{day.tasks}</td>
+              <td><button>Done</button></td>
             </tr>
           )}
         </tbody>
